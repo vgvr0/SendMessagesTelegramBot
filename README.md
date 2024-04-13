@@ -25,11 +25,11 @@ Alternatively, you can download the OkHttp JAR file and add it to your project's
 
 ## Usage
 1. Compile the TelegramSender.java file using the following command:
-```
+```bash
 javac TelegramSender.java
 ```
 2. Run the compiled Java class using the following command:
-```
+```bash
 java TelegramSender
 ```
 3. The program will send the message "Hello, Telegram!" to the specified Telegram chat using the provided Bot Token and Chat ID.
