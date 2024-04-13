@@ -1,4 +1,4 @@
-# Telegram Message Sender
+# Telegram Message Sender with Java
 This Java project demonstrates how to send messages to a Telegram chat using the Telegram Bot API and the OkHttp library.
 
 ## Prerequisites
