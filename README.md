@@ -9,9 +9,9 @@ Before running the code, make sure you have the following:
 
 ## Setup
 1. Clone the repository or download the source code files.
-2. Open the TelegramSender.java file in your preferred Java IDE or text editor.
-3. Replace "YOUR_BOT_TOKEN" with your actual Telegram Bot Token.
-4. Replace "YOUR_CHAT_ID" with the Chat ID of the Telegram chat where you want to send messages.
+2. Open the `TelegramSender.java` file in your preferred Java IDE or text editor.
+3. Replace `"YOUR_BOT_TOKEN"` with your actual Telegram Bot Token.
+4. Replace `"YOUR_CHAT_ID"` with the Chat ID of the Telegram chat where you want to send messages.
 5. Make sure you have the OkHttp library added to your project dependencies. You can add the following dependency to your pom.xml file if you're using Maven:
 ```java
 xml
@@ -37,7 +37,7 @@ java TelegramSender
 
 ## Customization
 - To change the message content, modify the message variable in the main method of the TelegramSender class.
-- If you want to send messages to a different Telegram chat, update the CHAT_ID constant with the appropriate Chat ID.
+- If you want to send messages to a different Telegram chat, update the CHAT_ID constant with the appropriate `Chat ID`.
 - You can extend the functionality of this project by adding more methods to send different types of messages (e.g., photos, documents) or by integrating it into a larger application.
 
 ## Error Handling
