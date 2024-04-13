@@ -37,7 +37,7 @@ java TelegramSender
 
 ## Customization
 - To change the message content, modify the message variable in the main method of the TelegramSender class.
-- If you want to send messages to a different Telegram chat, update the CHAT_ID constant with the appropriate `Chat ID`.
+- If you want to send messages to a different Telegram chat, update the `CHAT_ID` constant with the appropriate `Chat ID`.
 - You can extend the functionality of this project by adding more methods to send different types of messages (e.g., photos, documents) or by integrating it into a larger application.
 
 ## Error Handling
